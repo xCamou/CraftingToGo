@@ -3,7 +3,7 @@ game 'gta5'
 
 author 'Camou'
 description 'Crafting To Go'
-version '1.0.0'
+version '1.1'
 
 shared_script 'config.lua'
 
@@ -12,6 +12,10 @@ client_scripts {
 }
 
 server_scripts {
-    '@mysql-async/lib/MySQL.lua',
     'server.lua'
+}
+
+dependencies {
+    'es_extended', -- use ESX
+    --'qb-core' -- use QBCore
 }
