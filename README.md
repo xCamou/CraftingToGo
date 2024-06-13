@@ -1,18 +1,39 @@
-# CraftingToGo
-Simple script to craft anywhere and anytime
+# Crafting Script for FiveM (ESX & QBCore)
 
-A simple script with which you can craft everywhere without using positions.
+## Description (English)
 
-example:
-You have a broken cell phone and a battery with you?
-Use the battery to start crafting and get a working cell phone :D
+This script implements a crafting system for FiveM servers, supporting both ESX and QBCore frameworks. Players can craft items by combining various ingredients, with a configurable list of recipes. The script also includes animations to visually represent the crafting process.
+
+### Features
+- Supports both ESX and QBCore frameworks
+- Configurable recipes
+- Item crafting with animations
+- Notifications for success and failure
+- Framework selection via config file
+
+### Installation
+
+1. Download or clone the repository into your FiveM resources folder.
+2. Ensure you have both ESX and QBCore frameworks installed on your server.
+3. Edit the `config.lua` to select the framework and add your desired recipes.
+4. Add the resource to your server's `server.cfg`:
 
 
-Preview: https://streamable.com/xs771q
+## Disclaimer
+
+Please note that I am not very familiar with QBCore, and there might be issues when using this script with QBCore. If you encounter any problems, feel free to make adjustments as needed.
+
+## Contributions and Usage
+
+You are welcome to modify this script to suit your needs. If you make improvements or fixes, please share them with me so that others can benefit as well. However, please do not sell this script.
 
 
-The script can be changed by anyone but cannot be sold.
-Feel free to share your changes with us.
 
-Sorry for my bad English :D
+# Changelog
+
+## [1.1.0]
+
+### Added
+- Added support for both ESX and QBCore frameworks.
+- Configuration option to choose the framework in `config.lua`.
 
