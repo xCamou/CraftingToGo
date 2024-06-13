@@ -1,5 +1,7 @@
 Config = {}
 
+Config.Framework = 'ESX' -- 'ESX' or 'QBCore'
+
 Config.Recipes = {
     {
         result = { name = "weed_joint", count = 1 },
@@ -9,8 +11,8 @@ Config.Recipes = {
         },
         usableItem = "weed_papers",
         animation = {
-            dict = "mini@repair",
-            name = "fixing_a_ped",
+            dict = "missheistfbisetup1",
+            name = "hassle_intro_loop_f",
             time = 5000
         }
     },
@@ -22,10 +24,11 @@ Config.Recipes = {
     --     },
     --     usableItem = "weed_papers",
     --     animation = {
-    --         dict = "mini@repair",
-    --         name = "fixing_a_ped",
+    --         dict = "missheistfbisetup1",
+    --         name = "hassle_intro_loop_f",
     --         time = 5000
     --     }
     -- },
-    --[[ADD MORE RECIPES]]
 }
+
+
