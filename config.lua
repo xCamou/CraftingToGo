@@ -1,7 +1,5 @@
 Config = {}
 
-Config.Framework = 'ESX' -- 'ESX' or 'QBCore'
-
 Config.Recipes = {
     {
         result = { name = "weed_joint", count = 1 },
