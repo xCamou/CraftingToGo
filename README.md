@@ -1,4 +1,4 @@
-# Crafting Script for FiveM (ESX & QBCore)
+# Crafting Script for FiveM (ESX)
 
 ## Description (English)
 
