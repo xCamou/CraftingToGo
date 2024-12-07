@@ -13,7 +13,7 @@ This script implements a crafting system for FiveM servers. Players can craft it
 ### Installation
 
 1. Download or clone the repository into your FiveM resources folder.
-2. Ensure you have both ESX and QBCore frameworks installed on your server.
+2. Ensure you have both ESX framework installed on your server.
 3. Edit the `config.lua` to select the framework and add your desired recipes.
 4. Add the resource to your server's `server.cfg`:
 
