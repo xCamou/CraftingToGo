@@ -2,7 +2,7 @@ Config = {}
 
 Config.Recipes = {
     {
-        result = { name = "weed_joint", count = 1 },
+        result = { name = "weed_joint", label = "Joint", count = 1 },
         ingredients = {
             { name = "weed_papers", count = 1 },
             { name = "weed_budclean", count = 5 }
