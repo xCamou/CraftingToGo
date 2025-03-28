@@ -37,7 +37,7 @@ AddEventHandler('crafting:removeIngredients', function(recipe)
         end
         xPlayer.addInventoryItem(recipe.result.name, recipe.result.count)
 
-        TriggerClientEvent("esx:showNotification", source, "Du hast " .. recipe.result.count .. "x " .. recipe.result.name .. " hergestellt.")
+        TriggerClientEvent("esx:showNotification", source, "Du hast " .. recipe.result.count .. "x " .. recipe.result.label .. " hergestellt.")
     else
         TriggerClientEvent("esx:showNotification", source, "Du hast nicht alle notwendigen Zutaten.")
     end
