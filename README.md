@@ -8,7 +8,6 @@ This script implements a crafting system for FiveM servers. Players can craft it
 - Configurable recipes
 - Item crafting with animations
 - Notifications for success and failure
-- Framework selection via config file
 
 ### Installation
 
